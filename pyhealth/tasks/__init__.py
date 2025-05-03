@@ -14,6 +14,8 @@ from .cardiology_detect import (
 from .temple_university_EEG_tasks import (
     EEG_isAbnormal_fn, EEG_events_fn,
 )
+from .EEG_seizure import (EEG_isSeizure_fn)
+
 from .length_of_stay_prediction import (
     length_of_stay_prediction_eicu_fn,
     length_of_stay_prediction_mimic3_fn,

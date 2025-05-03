@@ -3,6 +3,7 @@ from .rnn import RNN, RNNLayer
 from .transformer import Transformer, TransformerLayer
 from .retain import RETAIN, RETAINLayer
 from .cnn import CNN, CNNLayer
+from .cnn2d_lstm import CNN2D_LSTM_V8
 from .micron import MICRON, MICRONLayer
 from .gamenet import GAMENet, GAMENetLayer
 from .safedrug import SafeDrug, SafeDrugLayer
